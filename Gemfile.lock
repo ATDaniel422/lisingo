@@ -42,6 +42,7 @@ GEM
     bindex (0.5.0)
     builder (3.2.3)
     byebug (10.0.2)
+    coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
@@ -61,6 +62,10 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+<<<<<<< HEAD
+=======
+    libv8 (3.16.14.19)
+>>>>>>> 74b19a629f445d645c5d0a8180bf25389014faca
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -79,6 +84,14 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     pg (1.0.0)
+<<<<<<< HEAD
+=======
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-rails (0.3.6)
+      pry (>= 0.10.4)
+>>>>>>> 74b19a629f445d645c5d0a8180bf25389014faca
     puma (3.11.3)
     rack (2.0.4)
     rack-test (1.0.0)
@@ -110,6 +123,10 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+<<<<<<< HEAD
+=======
+    ref (2.0.0)
+>>>>>>> 74b19a629f445d645c5d0a8180bf25389014faca
     ruby_dep (1.5.0)
     sass (3.5.6)
       sass-listen (~> 4.0.0)
@@ -134,6 +151,12 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+<<<<<<< HEAD
+=======
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
+>>>>>>> 74b19a629f445d645c5d0a8180bf25389014faca
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
@@ -159,14 +182,26 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+<<<<<<< HEAD
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
+=======
+  execjs
+  jbuilder (~> 2.5)
+  listen (>= 3.0.5, < 3.2)
+  pg (>= 0.18, < 2.0)
+  pry-rails
+>>>>>>> 74b19a629f445d645c5d0a8180bf25389014faca
   puma (~> 3.7)
   rails (~> 5.1.6)
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
+<<<<<<< HEAD
+=======
+  therubyracer
+>>>>>>> 74b19a629f445d645c5d0a8180bf25389014faca
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
