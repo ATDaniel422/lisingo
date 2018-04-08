@@ -4,7 +4,7 @@ require 'aws-sdk-polly'
 module MP3Generator
 
   def self.generateAudio(inText,userVoice = "Joanna")
-    client  = Aws::Polly::Client.new(region: 'us-east-2')
+    client  = Aws::Polly::Client.new(region: 'us-east-1')
     strings = inText.scan(/(.{0,1500}[.?!])/).flatten()
     p strings
     threads = []
@@ -29,10 +29,14 @@ module MP3Generator
     threads.map(&:join)
     files = threads.map(&:value)
     files.each(&:close)
-    combined_filename = Dir::Tmpname.create(["mp3wrapped", ".mp3"], nil) {}
-    p "#{Rails.root + "bin/mp3wrap"} #{combined_filename} #{files.map(&:path).join(" ")}"
-    `#{Rails.root + "bin/mp3wrap"} #{combined_filename} #{files.map(&:path).join(" ")}`
-    files.each(&:unlink)
-    return combined_filename
+    if(files.count > 1)
+      combined_filename = Dir::Tmpname.create("mp3wrapped", nil) {}
+      p "#{Rails.root + "bin/mp3wrap"} #{combined_filename} #{files.map(&:path).join(" ")}"
+      `#{Rails.root + "bin/mp3wrap"} #{combined_filename} #{files.map(&:path).join(" ")}`
+      files.each(&:unlink)
+      return combined_filename + "_MP3WRAP.mp3"
+    else
+      return files[0].path
+    end
   end
 end
