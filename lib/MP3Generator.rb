@@ -11,7 +11,7 @@ module Module1
     file.binmode
     for string in strings do
       string.insert(0,'<speak>')
-      string.insert(string.length-1, '<break strength ="strong"></speak>')
+      string.append( '<break strength ="strong"></speak>')
       output = client.synthesize_speech({lexicon_names: [],
       output_format:"mp3",
       sample_rate: "8000",
