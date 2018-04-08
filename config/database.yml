@@ -19,7 +19,7 @@ default: &default
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+ pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
@@ -29,15 +29,15 @@ development:
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: lisingo
+  #username: hackpsu 
 
   # The password associated with the postgres role (username).
-  #password:
+  #password: pancakes
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
-  #host: localhost
+  #host: lisingo-db.cd55vekowh7f.us-east-1.rds.amazonaws.com
 
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
@@ -80,6 +80,9 @@ test:
 #
 production:
   <<: *default
-  database: lisingo_production
-  username: lisingo
-  password: <%= ENV['LISINGO_DATABASE_PASSWORD'] %>
+  database: lisingo_db
+  username: hackpsu 
+  password: pancakes 
+  host: lisingo-db.cd55vekowh7f.us-east-1.rds.amazonaws.com
+  port: 5432
+
