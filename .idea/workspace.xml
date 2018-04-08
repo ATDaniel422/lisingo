@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9937a337-153e-42a0-8ca0-68cce1599933" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9937a337-153e-42a0-8ca0-68cce1599933" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -296,7 +294,7 @@
       <option name="presentableId" value="Default" />
       <updated>1523150931289</updated>
       <workItem from="1523150932815" duration="12332000" />
-      <workItem from="1523190783763" duration="225000" />
+      <workItem from="1523190783763" duration="433000" />
     </task>
     <servers />
   </component>
@@ -309,11 +307,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12557000" />
+    <option name="totallyTimeSpent" value="12765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="44" width="1400" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
