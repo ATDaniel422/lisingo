@@ -1,3 +1,3 @@
-# lisingo
-An application that allows users to paste a url, and have all text on that page converted to MP3s.
-This application is built primarily using Ruby on Rails, and utilized Amazon Web Services' Polly dictation API
+# README
+
+An application that allows a user to enter a url, and it returns an MP3 file with dictation of the text on the webpage. This app is built primarily with Ruby on Rails and utilized Amazon Web Services Polly API
