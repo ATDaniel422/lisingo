@@ -19,7 +19,7 @@ default: &default
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
- pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
@@ -80,9 +80,9 @@ test:
 #
 production:
   <<: *default
-  database: lisingo_db
-  username: hackpsu 
-  password: pancakes 
-  host: lisingo-db.cd55vekowh7f.us-east-1.rds.amazonaws.com
-  port: 5432
+  database: lisingo_production
+#  username: hackpsu 
+#  password: pancakes 
+#  host: lisingo-db.cd55vekowh7f.us-east-1.rds.amazonaws.com
+#  port: 5432
 
