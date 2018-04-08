@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.1.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
+gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -53,4 +54,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'execjs'
 
+gem 'aws-sdk-polly'
+gem 'aws-sdk-s3'
 
+gem 'sidekiq'
+gem 'rerun'
+
+gem 'aasm'
