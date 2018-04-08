@@ -86,6 +86,15 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
 
+  Sidekiq.configure_server do |config|
+    config.redis = { url: 'redis://localhost:7372/12' }
+  end
+
+  Sidekiq.configure_client do |config|
+    config.redis = { url: 'redis://10.0.4.243:7372/12' }
+  end
+
+
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
