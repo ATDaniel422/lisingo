@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9937a337-153e-42a0-8ca0-68cce1599933" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/About.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Lisingo.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Lisingo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Upgrade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/createAnAc.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/createAnAc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/About.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Lisingo.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Lisingo.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Settings.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Test.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Upgrade.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/createAnAc.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/createAnAc.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -26,46 +27,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Lisingo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Lisingo.html">
+      <file leaf-file-name="Lisingo.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/Lisingo.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="-8">
               <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Settings.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/Settings.html">
+      <file leaf-file-name="Settings.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Settings.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+            <state relative-caret-position="335">
+              <caret line="103" column="41" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createAnAc.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/createAnAc.html">
+      <file leaf-file-name="createAnAc.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/createAnAc.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="236">
               <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Test.html">
+      <file leaf-file-name="Test.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Test.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
+            <state relative-caret-position="236">
               <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Upgrade.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Upgrade.html">
+      <file leaf-file-name="Upgrade.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Upgrade.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="236">
               <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -74,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="About.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/About.html">
+      <file leaf-file-name="About.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/About.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="405">
               <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
             </state>
           </provider>
@@ -91,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/About.html.erb" />
         <option value="$PROJECT_DIR$/app/views/hack.css" />
         <option value="$PROJECT_DIR$/app/views/home.html" />
         <option value="$PROJECT_DIR$/app/views/CreateA.html" />
@@ -102,6 +102,10 @@
         <option value="$PROJECT_DIR$/app/views/Upgrade.html" />
         <option value="$PROJECT_DIR$/app/views/About.html" />
         <option value="$PROJECT_DIR$/app/views/Settings.html" />
+        <option value="$PROJECT_DIR$/app/views/Settings.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/createAnAc.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/Upgrade.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/About.html.erb" />
       </list>
     </option>
   </component>
@@ -289,7 +293,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523150931289</updated>
-      <workItem from="1523150932815" duration="10888000" />
+      <workItem from="1523150932815" duration="11625000" />
     </task>
     <servers />
   </component>
@@ -302,7 +306,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10888000" />
+    <option name="totallyTimeSpent" value="11625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="44" width="1400" height="873" extended-state="0" />
@@ -314,7 +318,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
@@ -343,30 +347,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/createAnAc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Lisingo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Upgrade.html">
+    <entry file="file://$PROJECT_DIR$/app/views/About.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Upgrade.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
           <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -374,17 +364,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/About.html">
+    <entry file="file://$PROJECT_DIR$/app/views/Test.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        <state relative-caret-position="236">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Settings.html">
+    <entry file="file://$PROJECT_DIR$/app/views/createAnAc.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+        <state relative-caret-position="236">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Settings.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="103" column="41" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Lisingo.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
         </state>
       </provider>
     </entry>
