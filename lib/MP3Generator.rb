@@ -3,27 +3,23 @@ require 'aws-sdk-polly'
 #Aws.config.update({credentials: Aws::Credentials.new()})
 module MP3Generator
 
-  def self.generateAudio(inText,userVoice = "Joanna")
-    client  = Aws::Polly::Client.new(region: 'us-east-2')
-    strings = inText.scan(/(.{0,1500}[.?!])/).flatten()
-    p strings
-    threads = []
-    strings.each do |string|
-      thr_string = string.clone()
-      threads << Thread.new {
-        p thr_string
-        client  = Aws::Polly::Client.new(region: 'us-east-2')
-        result =  client.synthesize_speech({lexicon_names: [],
-        output_format:"mp3",
-        sample_rate: "8000",
-        text: thr_string,
-        text_type:"text",
-        voice_id: userVoice,})
-        file = Tempfile.new(["mp3wrap", ".mp3"])
-        file.binmode
-        file.write(result.audio_stream.read)
-        file
-      }
+module Module1
+
+  def generateAudio(inText,userVoice = "Joanna")
+    client  = Aws::Polly::Client.new(region: 'us-east-1')
+    strings = text.split(/(?<=[.!?]) /)
+    file = Tempfile.new('test')
+    file.binmode
+    for string in strings do
+      string.insert(0,'<speak>')
+      string.append( '<break strength ="strong"></speak>')
+      output = client.synthesize_speech({lexicon_names: [],
+      output_format:"mp3",
+      sample_rate: "8000",
+      text: inText,
+      text_type:"ssml",
+      voice_id: userVoice,})
+      file.write(output.audio_stream.read)
     end
 
     threads.map(&:join)
